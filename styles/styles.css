@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #152946;
+    font-family: 'Outfit', sans-serif;
+}
+p{
+    color: #b3b3b3;
+}
+.card-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 1.2rem;
+}
+.card-border{
+    background-color: #1d3d6e;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 25px #0f203a;
+    max-width: 20rem;
+    padding: 1.2rem;
+}
+.equi-img{
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+.card-content h3{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.card-content p{
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eth{
+    display: flex;
+    align-items: center;
+}
+.eth-price{
+    color: #00fff7;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+.clock{
+    display: flex;
+    align-items: center;
+}
+.clock-text{
+    margin-left: 0.5rem;
+}
+hr{
+    border: solid 1px #2f5c9e;
+    border-bottom: none;
+    margin: 1rem 0;
+}
+.creator{
+    display: flex;
+    align-items: center;
+}
+.creator img{
+    border: solid 1px #fff;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    width: 15%;
+}
+.creator p{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.creator p a{
+    color: #fff;
+    text-decoration: none;
+}
