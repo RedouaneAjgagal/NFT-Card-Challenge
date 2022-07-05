@@ -24,15 +24,44 @@ p{
     padding: 1.2rem;
 }
 .equi-img{
-    border-radius: 1rem;
-    margin-bottom: 1.2rem;
+    border-radius: 1rem;   
     width: 100%;
+}
+.link-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.view-link{
+    background-color: hsla(178, 100%, 50%, 0.466);
+    border-radius: 1rem;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-link:hover{
+    opacity: 1;
 }
 .card-content h3{
     color: #fff;
+    display: inline-block;
+    margin-top: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
     font-size: 1.6rem;
+    transition: 0.2s;
+}
+.card-content a {
+    text-decoration: none;
+}
+.card-content a h3:hover {
+    color: #00fff7;
 }
 .card-content p{
     font-weight: 300;
@@ -84,4 +113,7 @@ hr{
 .creator p a{
     color: #fff;
     text-decoration: none;
+}
+.creator p a:hover{
+    color: #00fff7;
 }
